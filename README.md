@@ -8,13 +8,12 @@ Atom payment gateway for PHP or Codeigniter
 4. Now call below functions.
 5. That's it.
 
-# Call below function from anywhere in your controller
-public function __constructor(){
-  parent::__constructor();
-  $this->load->library('atompay');
-}
-
-# Calling atom pay functions.
+### Call below function from anywhere in your controller, request and response.
+    public function __constructor(){
+      parent::__constructor();
+      $this->load->library('atompay');
+    }
+    
     public function atom_request(){  
       $this->atompay->atom_request();
     }
