@@ -1,5 +1,5 @@
 # Atompay Integration
-Atom payment gateway for PHP or Codeigniter
+Atom payment gateway for PHP or Codeigniter, official website of atom pay is https://www.atomtech.in/
 
 # Installation
 1. Download above library file.
